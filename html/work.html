@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Samples - Your Name</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <div id="nav-placeholder"></div>
+
+    <main class="main-content">
+        <div class="page-content">
+            <h1>Work Samples</h1>
+            <p class="work-intro">Technical Writing samples.</p>
+
+            <div class="work-grid" id="work-grid">
+            </div>
+            <div class="pdf-modal" id="pdf-modal">
+                <div class="pdf-modal-content">
+                    <div class="pdf-modal-header">
+                        <h3 id="pdf-title">Document Title</h3>
+                        <div class="pdf-modal-controls">
+                            <a id="pdf-download" href="#" download class="pdf-control-btn" title="Download PDF">
+                                📥 Download
+                            </a>
+                            <button id="pdf-fullscreen" class="pdf-control-btn" title="Toggle Fullscreen">
+                                ⛶ Fullscreen
+                            </button>
+                            <button class="pdf-close" onclick="closePDFModal()" title="Close">
+                                ✕
+                            </button>
+                        </div>
+                    </div>
+                    <div class="pdf-viewer-container">
+                        <iframe id="pdf-viewer" src="" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Virginia Knaggs. All rights reserved.</p>
+    </footer>
+
+    <script src="../javascript/navigation.js"></script>
+    <script src="../javascript/work.js"></script>
+</body>
+
+</html>
